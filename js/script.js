@@ -17,10 +17,10 @@
 
 // Songs
 var mySong = {
-	"title":"24K Magic",
-	"artist":"Bruno Mars",
-	"mp3-url":"https://open.spotify.com/track/6b8Be6ljOzmkOmFslEb23P",
-	"image-url":"https://images-na.ssl-images-amazon.com/images/I/71Gr9aCHQfL._SY355_.jpg",
+	"title":"Finesse",
+	"artist":"Bruno Mars ft. Cardi B",
+	"mp3-url":"https://www.youtube.com/watch?v=LsoLEjrDogU",
+	"image-url":"https://www.mynaijalyrics.com/wp-content/uploads/2018/01/1515037649_51c419ea1e290cd6d79d34019e0862f5.jpg",
 }
 
 var myPlayList = [
@@ -56,7 +56,10 @@ $( document ).ready(function() {
 });
 
 function displayList(){
-
+$('body').append("<p>Title: " + mySong.title + "</p>");
+$('body').append("<p>Artist: " + mySong.artist + "</p>");
+$('body').append("<p>mp3Url: " + mySong.mp3Url + "</p>");
+$('body').append("<img src=" + "https://www.mynaijalyrics.com/wp-content/uploads/2018/01/1515037649_51c419ea1e290cd6d79d34019e0862f5.jpg");
 
   
 }
